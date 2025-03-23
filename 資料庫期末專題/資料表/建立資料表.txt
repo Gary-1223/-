@@ -1,0 +1,40 @@
+catrgory
+CREATE TABLE table_name(categoryID DOUBLE,categoryName VARCHAR(10));
+INSERT INTO table_name (categoryID,categoryName) VALUES 
+(1,'服飾'),
+(2,'電器'),
+(3,'3C'),
+(4,'食品'),
+(5,'保健');
+
+product
+CREATE TABLE table_name(categoryID DOUBLE,productID DOUBLE,productName VARCHAR(10),price DOUBLE);
+INSERT INTO table_name (categoryID,productID,productName,price) VALUES 
+(1,1,'連帽大學T',200),
+(1,2,'排球褲   ',500),
+(1,3,'排球襪 ',160),
+(1,4,'排汗衫',500),
+(1,5,'運動短褲',150),
+(2,6,'洗衣機',130000),
+(2,7,'自動洗碗機',10000),
+(2,8,'全自動咖啡機',2000),
+(2,9,'微波爐',2000),
+(2,10,'富果汁機 ',700),
+(3,11,'iphone 15 128G',30000),
+(3,12,'透明玻璃手機殼',150),
+(3,13,'摺疊手機架',150),
+(3,14,'充電頭 ',600),
+(3,15,'Apple iPad 第十代 256G',15000),
+(4,16,'香蕉脆片',300),
+(4,17,'健達繽紛樂 ',25),
+(4,18,'金沙巧克力',320),
+(4,19,'不二家棒棒糖',85),
+(4,20,'芒果乾 ',50),
+(5,21,'康健喜C錠   ',250),
+(5,22,'海藻鈣鎂D3',420),
+(5,23,'米鴻生醫魚油85%r-TG  ',600),
+(5,24,'美白優 乳清蛋白粉',750),
+(5,25,'百億靈全能型益生菌 ',690);
+
+users
+CREATE TABLE table_name(id VARCHAR(255),username VARCHAR(255),password VARCHAR(255));
